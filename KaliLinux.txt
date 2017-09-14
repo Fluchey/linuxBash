@@ -1,0 +1,11 @@
+KALI LINUX shit
+
+	The "netdiscover –r 192.168.111.0/24" command discovers all IP addresses in the given range.
+
+NMAP:
+	"nmap -sS [target IP address]" Scans all ports for the IP. Uses stealthy tcp, does not complete handshake.
+	"nmap -sV -O [target IP address]" Not stealthy, returns version and operating system.
+	"nmap -sS -sV -O[target IP address]" -||- + service.
+	"nmap -A [target IP address]" Not stealthy, returns everything.
+
+

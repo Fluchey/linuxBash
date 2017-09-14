@@ -2,32 +2,51 @@
 	* APT
 		apt-get purge packagename
 			Will remove the package installed but not the dependencies
-		
+
 		apt-get autoremove
 			After running purge, run this to remove dependencies
-	
+
 
 
 	* RSYNC (Synchronize and backup files)
-		rsync -av /path/here1 /path/here2
-			Backs up all the content in here1 to here2
+			rsync -av /path/here1 /path/here2
+				Backs up all the content in here1 to here2
 
 
 
 	* CRON (Background Jobs)
-		crontab -e
-			This brings up the config file
+			crontab -e
+				This brings up the config file
 
-		* * * * * rsync -av /path/here1 /path/here2
-			Runs the backup script every minute of every hour all days
+			* * * * * rsync -av /path/here1 /path/here2
+				Runs the backup script every minute of every hour all days
 
-	
 
-		
-			
+
+
+
 ##### MAC ######
 	* BREW
-		brew cu
-			 (Updates all applications in cask)
-		
-		
+			brew cu
+				 (Updates all applications in cask)
+
+
+##### GIT #####
+	* ADD NEW REPO TO GITHUB
+			git init
+				Initiates git in the folder
+
+			git add README
+				Adds readme
+
+			git add *
+				Adds all files in folder to git
+
+			git commit -m 'First Commit'
+				Makes the first commit to git
+
+			git remote add origin https://github.com/adress/to/repo
+				Add the remote adress
+
+			git push origin master
+				Pushes to master branch

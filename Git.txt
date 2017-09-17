@@ -1,4 +1,8 @@
 ##### GIT #####
+	* COMMANDS
+		git rm filename
+			Removes filename from git repo
+
 	* ADD NEW REPO TO GITHUB
 		git init
 			Initiates git in the folder
@@ -17,3 +21,6 @@
 
 		git push origin master
 			Pushes to master branch
+
+
+	

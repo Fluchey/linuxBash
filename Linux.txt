@@ -23,3 +23,9 @@
 	* RSYNC (Synchronize and backup files)
 			rsync -av /path/here1 /path/here2
 				/*Backs up all the content in here1 to here2*/
+
+	* arp-scan (Scan network for devices)
+		sudo apt-get install arp-scan
+		
+		sudo arp-scan --interface=eth0 --localnet
+			Replace eth0 with your device, find out your device with ifconfig

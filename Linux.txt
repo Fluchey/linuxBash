@@ -1,0 +1,25 @@
+##### LINUX #######
+	* APT
+		apt-get purge packagename
+			/*Will remove the package installed but not the dependencies*/
+
+		apt-get autoremove
+			/*After running purge, run this to remove dependencies*/
+
+
+
+	* CRON (Background Jobs)
+			crontab -e
+			/*This brings up the config file*/
+
+		* * * * * rsync -av /path/here1 /path/here2
+			/*Runs the backup script every minute of every hour all days*/
+
+
+	* DPKG
+			dpkg --list
+				/* List all installed programs */
+
+	* RSYNC (Synchronize and backup files)
+			rsync -av /path/here1 /path/here2
+				/*Backs up all the content in here1 to here2*/

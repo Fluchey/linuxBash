@@ -1,0 +1,19 @@
+##### GIT #####
+	* ADD NEW REPO TO GITHUB
+		git init
+			Initiates git in the folder
+
+		git add README
+			Adds readme
+
+		git add *
+			Adds all files in folder to git
+
+		git commit -m 'First Commit'
+			Makes the first commit to git
+
+		git remote add origin https://github.com/adress/to/repo
+			Add the remote adress
+
+		git push origin master
+			Pushes to master branch

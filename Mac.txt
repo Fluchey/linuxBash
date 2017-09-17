@@ -1,0 +1,4 @@
+##### MAC ######
+	* BREW
+		brew cu
+			 /*Updates all applications in cask*/

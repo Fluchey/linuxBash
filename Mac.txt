@@ -1,4 +1,6 @@
 ##### MAC ######
 	* BREW
-		brew cu
-			 /*Updates all applications in cask*/
+		brew cu (Updates all applications in cask)
+
+		brew install macvim —override-system-vim
+			Install vim for mac

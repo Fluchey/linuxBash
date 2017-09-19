@@ -158,3 +158,17 @@ e.g. :vimgrep /foo/ **/*
     :cn - jump to the next match
     :cp - jump to the previous match
     :copen - open a window containing the list of matches
+
+
+" USING PLUGINS
+For every plugin, you need to run:
+
+$ cd ~/.vim
+$ git submodule add git@source/pluginname.git bundle/pluginname
+
+For instance if you want to add vim-ruby located at https://github.com/vim-ruby/vim-ruby, you’ll do:
+
+$ git submodule add git@github.com:vim-ruby/vim-ruby.git bundle/vim-ruby
+
+Later on when you use your config on another machine or want to update your plugins, you’ll be able to use other commands
+like git submodule init or git submodule update.

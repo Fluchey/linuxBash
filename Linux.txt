@@ -29,3 +29,7 @@
 		
 		sudo arp-scan --interface=eth0 --localnet
 			Replace eth0 with your device, find out your device with ifconfig
+
+	* Ip INFO
+		curl ipinfo.io/ip
+			Displays your public IP

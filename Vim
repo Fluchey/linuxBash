@@ -171,4 +171,13 @@ For instance if you want to add vim-ruby located at https://github.com/vim-ruby/
 $ git submodule add git@github.com:vim-ruby/vim-ruby.git bundle/vim-ruby
 
 Later on when you use your config on another machine or want to update your plugins, you’ll be able to use other commands
-like git submodule init or git submodule update.
+like git submodule init or git submodule update
+
+
+SWITCH BETWEEN FILES
+        :tabe <filepath> open new tab
+                :tabn/:tabp switch between tabs
+
+        :sp <filepath> open two files split screen
+        :vsp <filepath> for vertical split
+

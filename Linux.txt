@@ -33,6 +33,18 @@
 	* Ip INFO
 		curl ipinfo.io/ip
 			Displays your public IP
+
+        * GREP
+                grep -rnw '/path/to/somewhere' -e 'pattern'
+                        Search through the specified folder for a matching string/pattern
+
+
+
+
+
+
+
+
 ##### KALI LINUX #####
 
 	* netdiscover

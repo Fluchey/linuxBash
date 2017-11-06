@@ -172,3 +172,6 @@ $ git submodule add git@github.com:vim-ruby/vim-ruby.git bundle/vim-ruby
 
 Later on when you use your config on another machine or want to update your plugins, you’ll be able to use other commands
 like git submodule init or git submodule update.
+
+$ git submodule update --recursive --remote
+You may need to add info from .gitmodules about repository to .git/config
